@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HowLong.HowLongSetDateController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="33.0" prefWidth="168.0" text="Death Date:" />
+            <DatePicker fx:id="deathDatePicker" prefHeight="26.0" prefWidth="399.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="33.0" prefWidth="175.0" text="Death Time:" />
+            <Slider fx:id="timeSlider" max="2359.0" prefHeight="16.0" prefWidth="309.0" />
+            <Label fx:id="timeSliderLabel" alignment="CENTER" prefHeight="25.0" prefWidth="95.0" text="00:00" />
+         </children></HBox>
+   </children>
+   <padding>
+      <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+   </padding>
+</VBox>
