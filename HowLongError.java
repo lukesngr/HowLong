@@ -9,7 +9,7 @@ public class HowLongError {
 		Stage errorBoxStage = new Stage();
 		errorBoxStage.setTitle("Error");
 		Label label = new Label(message);
-		Scene scene = new Scene(label, 200, 200);
+		Scene scene = new Scene(label, 300, 200);
 		errorBoxStage.setScene(scene);
 		errorBoxStage.show();
 	}

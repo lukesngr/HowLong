@@ -1,0 +1,28 @@
+.hoursText, .daysText, .monthsText, .yearsText, .timeRemaining, .deathDate {
+	-fx-text-fill: white;
+}
+
+.root {
+	-fx-background-color: linear-gradient(to top, #A933FF, #3362FF);
+}
+
+.deathCounterMenuBar {
+	-fx-background-color: linear-gradient(to bottom, #FF33FF, #EA9CF1);
+}
+
+.hoursField, .daysField, .monthsField, .yearsField {
+	-fx-background-color: #3F3540;
+	-fx-text-fill: white;
+}
+
+.menu .label {
+	-fx-text-fill: white;
+}
+
+.context-menu {
+	-fx-background-color: linear-gradient(to bottom, #FF33FF, #EA9CF1);
+}
+
+.label {
+	-fx-text-fill: white;
+}
